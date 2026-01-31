@@ -39,12 +39,14 @@ The tests verify:
 ---
 
 ## Install dependance
---npm install
---npx playwright install
+
+--npm install /
+ --npx playwright install
 
 ## Running the Tests
---npx playwright test
---npx playwright test --ui
+
+--npx playwright test / 
+--npx playwright test --ui / 
 --npx playwright test --project=chromium
 
 
